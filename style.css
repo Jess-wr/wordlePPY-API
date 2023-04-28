@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+body {
+   font-family: "Yanone Kaffeesatz", sans-serif;
+   background-color: beige;
+ }
+    
+ h1 {
+   text-align: center;
+   margin-top: 50px;
+ }  
+ #guess-input {
+  font-family: "Yanone Kaffeesatz";
+   display: block;
+   margin: 0 auto 20px;
+   padding: 10px;
+   font-size: 18px;
+   width: 180px;
+   border: none;
+   background-color: #ffffff;
+   
+   
+ }
+    
+ #guess-button {
+   display: block;
+   margin: 0 auto;
+   padding: 10px 20px;
+   font-size: 18px;
+   font-family: "Yanone Kaffeesatz";
+   background-color: #F48FB1;
+   color: #fff;
+   border: none;
+   border-radius: 3px;
+   box-shadow: 2px 2px #585858;
+ }
+    
+ button:active {
+ 	transform: scale(0.95);
+ }
+    
+ .letter {
+     border: 1px solid black;
+     border-radius: 3px;
+     padding: 3px;
+     margin: 3px;
+     min-width: 20px;
+     text-align: center;
+     display: inline-block;
+ }
+    
+ .row{
+     margin-bottom: 10px;
+ }
+    
+ .input-area{
+     margin: 30px;
+ }
+ #grid{
+  margin-top: 30px;
+  text-align: center;
+ }
+ .detalle{
+  text-align: center;
+ }
